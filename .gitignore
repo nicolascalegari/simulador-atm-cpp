@@ -1,0 +1,24 @@
+# Arquivos objeto e dependencias gerados pelo Makefile (-MMD -MP)
+*.o
+*.d
+
+# Executaveis compilados (Linux/macOS e Windows)
+atm_sim
+atm_sim.exe
+run_tests
+run_tests.exe
+*.out
+*.exe
+
+# Arquivos gerados em tempo de execucao pelo simulador
+extrato.txt
+
+# Pastas comuns de IDEs e editores (VS Code, CLion, etc.)
+.vscode/
+.idea/
+*.swp
+*~
+
+# Arquivos temporarios do sistema operacional
+.DS_Store
+Thumbs.db
